@@ -453,3 +453,87 @@ span{
     color: #007bff;
     text-decoration: none;
 }
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2.heading {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        h2.heading span {
+            color: #007bff;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Team member section styles */
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin: 50px 0;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .member-img img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .member-content {
+            max-width: 600px;
+        }
+
+        .kartik {
+            flex-direction: row;
+        }
+
+        .bhavantik {
+            flex-direction: row-reverse;
+        }
+
+        .member-img {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .member-content {
+            flex: 2;
+            margin: 10px;
+        }
